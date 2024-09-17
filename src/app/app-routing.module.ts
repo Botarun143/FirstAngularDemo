@@ -4,6 +4,7 @@ import { ForgotpasswordComponent } from './forgotpassword/forgotpassword.compone
 import { TemplateDrivenComponentComponent } from './template-driven-component/template-driven-component.component';
 import { AddRestaurantsComponent } from './add-restaurants/add-restaurants.component';
 import { CreateaccountComponent } from './createaccount/createaccount.component';
+import { LoansearchComponent } from './loansearch/loansearch.component';
 
 
 const routes: Routes = [{
@@ -19,6 +20,9 @@ const routes: Routes = [{
 },{
   path:'createAccount',
   component:CreateaccountComponent
+},
+{
+  path:"searchAccount",component:LoansearchComponent
 }
 
 ];

@@ -14,6 +14,7 @@ import { UserComponent } from './user/user.component';
 import { AddRestaurantsComponent } from './add-restaurants/add-restaurants.component';
 import { RatingComponent } from './rating/rating.component';
 import { CreateaccountComponent } from './createaccount/createaccount.component';
+import { LoansearchComponent } from './loansearch/loansearch.component';
 
 
 @NgModule({
@@ -27,6 +28,7 @@ import { CreateaccountComponent } from './createaccount/createaccount.component'
     AddRestaurantsComponent,
     RatingComponent,
     CreateaccountComponent,
+    LoansearchComponent,
     
   ],
   imports: [
